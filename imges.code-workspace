@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "imges",
+			"path": "../Assignment_6/imges"
+		},
+		{
+			"name": "js",
+			"path": "../Assignment_6/js"
+		},
+		{
+			"name": "css",
+			"path": "../Assignment_6/css"
+		},
+		{
+			"path": "css"
+		},
+		{
+			"path": "js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "imges"
+	}
+}

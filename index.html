@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&family=PT+Sans+Caption:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header class="py-3 bg-color">
+      <nav class="navbar navbar-expand-lg container">
+        <div class="container-fluid">
+          <nav class="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white d-flex" href="#">
+                <img
+                  src="https://routeweather.netlify.app/images/logo@2x.png"
+                  alt="Logo"
+                  width="64"
+                  height="38"
+                  class="d-inline-block align-text-top"
+                />
+                <div class="d-flex flex-column ps-3">
+                  Weather
+                  <p>tagline goes here</p>
+                </div>
+              </a>
+            </div>
+          </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-2">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white rounded-pill p-2 mb-2"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">News</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Live Cameras</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Photos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero position-relative" style="height: 70vh" id="hero">
+      <div
+        class="container h-100 d-flex justify-content-center align-items-center"
+      >
+        <div class="input-group rounded-pill overflow-hidden w-50">
+          <input
+            type="text"
+            class="form-control border-0"
+            id="searchInp"
+            placeholder="Find Your Location..."
+          />
+          <button class="btn btn-primary rounded-0" id="searchBtn">Find</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="position-relative bg-color min-vh-50">
+      <div class="container ">
+        <div class="row" id="row-data"></div>
+      </div>
+    </section>
+
+<footer class=" text-white py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div class="d-flex flex-column">
+          <div class="input-group rounded-pill overflow-hidden mb-3">
+            <input
+              type="text"
+              class="form-control border-0"
+              placeholder="Enter your email to subscribe..."
+            />
+            <button class="btn btn-primary rounded-0">Subscribe</button>
+          </div>
+          <p class="mb-0 small">
+            © 2014 Company name. Designed by Themezy. All rights reserved.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 text-md-end text-center">
+        <div class="d-flex justify-content-md-end justify-content-center gap-3">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-behance"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

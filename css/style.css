@@ -1,0 +1,53 @@
+.bg-color{
+    background-color: #1E202B;
+}
+li {
+  border: 4px dashed transparent; 
+  border-radius: 999px; 
+  padding: 10px 20px;
+  transition: all 0.4s ease;
+  display: inline-block;
+  color: #009AD8;
+}
+
+li:hover {
+  border-color: #009AD8; 
+  background-color: #009AD8; 
+  color: white;
+}
+nav p{
+    color: #BFC1C8;
+    font-size: 10px;
+}
+#hero {
+  background-image: url(../img/banner.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: #262936; 
+}
+.min-vh-50{
+    min-height: 50vh;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1E202B; 
+  color: #009AD8; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.social-icon:hover {
+  background-color: #009AD8; 
+  color: #fff;
+}
